@@ -2,7 +2,7 @@ import streamlit as st
 from google import genai
 from google.genai import types
 config = types.GenerateContentConfig(
-    system_instruction = ".You are an expert Python developer.
+    system_instruction = "You are an expert Python developer.
  Answer only questions related to Python programming.
  For any non-Python question, reply exactly:
  Please ask a Python-related question.
