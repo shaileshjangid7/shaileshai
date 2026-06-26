@@ -17,7 +17,7 @@ st.markdown(
   """,
   unsafe_allow_html=True,
 )
-client = genai.Client( api_key=st.secrets["GOOGLE_API_KEY"])
+robo = genai.Client( api_key=st.secrets["GOOGLE_API_KEY"])
 mychat = robo.chats.create(model="gemini-flash-lite-latest")
 
 Placeholder for the response
