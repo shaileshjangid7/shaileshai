@@ -20,7 +20,7 @@ st.markdown(
 robo = genai.Client( api_key=st.secrets["GOOGLE_API_KEY"])
 mychat = robo.chats.create(model="gemini-flash-lite-latest")
 
-Placeholder for the response
+##Placeholder for the response
 response_placeholder = st.empty()
 
 question = st.text_input("", placeholder="Enter your Python question here...")
